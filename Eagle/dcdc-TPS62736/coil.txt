@@ -1,0 +1,6 @@
+10µH
+According to datasheet p.21 and p. 22
+
+TOKO      DFE252012C       DCR = 0.400 Ohm (typ)     Isat 30% = 1 A
+Coilcraf  LPS4018-103M     DCR = 0.200 Ohm max       Isat 30% = 0.83A
+

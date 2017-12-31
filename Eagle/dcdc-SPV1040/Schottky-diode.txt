@@ -1,0 +1,6 @@
+VF <= 5.5V - VBATT_max and IF >= I Lmax
+
+with VBATT_max = 5.04 V --> VF <= 0.46 V
+with I Lmax    = 1.65 A --> IF >= 1.65 A
+
+This one is good, which we also have in stock: CMSH1-60M

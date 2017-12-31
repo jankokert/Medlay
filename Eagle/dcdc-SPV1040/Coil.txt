@@ -1,0 +1,35 @@
+10µH
+According to AN3319 p.13:
+
+Coilcraft:   XAL6060-103           Isat = 7.6 A    RDC = 0.027 Ohm    SRF = 14MHz      d=4mm
+Coilcraft:   MSS7341-103           Isat = 2.1 A    RDC = 0.032 Ohm    SRF = 32MHz      d=6mm (7..5 round)
+EPCOS:       B82442T1103K050        
+
+According to SPV1040_EVAL p.4
+TDK:         B82442T1103K050       Isat = 2.28 A   RDC = 0.132 Ohm    Q=15             d=6mm (4..8,  bad! -> d=5)
+
+
+
+
+In my stock:
+(from Robter)  
+WE (10µH)    744778910             Isat = 2.2 A    RDC = 0.064 Ohm    SRF = 32MHz      d=7mm (6..8)
+
+
+
+Samples
+2.2µH
+WE          74437349022            Isat = 14 A     RDC = 0.011 Ohm    SRF = 30MHz      d=6mm (2.5..8.5)
+
+1.5µH
+WE          744310150              Isat = 12 A     RDC = 0.0127 Ohm   SRF = 80MHz      d=6mm (3..8?)
+
+
+
+
+
+Isat @ 30% drop!
+d = distance center-to-center
+SRF = selr resonance frequency
+
+
