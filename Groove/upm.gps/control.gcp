@@ -1,0 +1,13 @@
+recipe build() {
+  alap useSISO|useSIDO|useDISO|useDIDO|useNA;
+  cleanup_and_connect;
+  alap jumper|no_jumper;
+  alap makeWireOut1_In1|makeWireOut1_In2|makeWireOut2_In1|makeWireOut2_In2|makeWireWo_In1|makeWireWo_In2;
+  #cleanAllAttributes_In_Out;
+  try{
+    danglingError;
+  } else{
+    alap cleanup_na;
+    cleanAllAttributes_wo_and_del;
+  }
+}

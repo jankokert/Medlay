@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph role="rule" edgeids="false" edgemode="directed" id="makeWireOut1_In2">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n2">
+            <attr name="layout">
+                <string>181 132 55 29</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>387 133 42 29</string>
+            </attr>
+        </node>
+        <edge from="n2" to="n3">
+            <attr name="label">
+                <string>not:x</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>del:flag:out1</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n3">
+            <attr name="label">
+                <string>not:=</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n3">
+            <attr name="label">
+                <string>new:1--2</string>
+            </attr>
+            <attr name="layout">
+                <string>517 2 234 158 312 197 408 147 11</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>del:flag:in2</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n2">
+            <attr name="label">
+                <string>not:x</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 408 147 308 94 208 146 13</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>

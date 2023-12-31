@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
+    <graph role="rule" edgeids="false" edgemode="directed" id="makeWireOut1_In1">
+        <attr name="$version">
+            <string>curly</string>
+        </attr>
+        <node id="n2">
+            <attr name="layout">
+                <string>181 131 55 29</string>
+            </attr>
+        </node>
+        <node id="n3">
+            <attr name="layout">
+                <string>385 118 46 58</string>
+            </attr>
+        </node>
+        <node id="n0">
+            <attr name="layout">
+                <string>103 273 696 58</string>
+            </attr>
+        </node>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>del:flag:out1</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n3">
+            <attr name="label">
+                <string>new:1--1</string>
+            </attr>
+            <attr name="layout">
+                <string>517 2 234 158 312 197 408 147 11</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n3">
+            <attr name="label">
+                <string>not:x</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n3">
+            <attr name="label">
+                <string>not:=</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n3">
+            <attr name="label">
+                <string>del:flag:in1</string>
+            </attr>
+        </edge>
+        <edge from="n3" to="n2">
+            <attr name="label">
+                <string>not:x</string>
+            </attr>
+            <attr name="layout">
+                <string>500 0 408 147 308 93 208 146 13</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>rem:</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>rem: in this rule the NAC sould be not type:in for left AND not type:out for right,</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>rem:disallowing direct connection for in to out</string>
+            </attr>
+        </edge>
+    </graph>
+</gxl>
