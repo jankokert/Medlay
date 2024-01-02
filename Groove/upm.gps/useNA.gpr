@@ -6,22 +6,22 @@
         </attr>
         <node id="n1">
             <attr name="layout">
-                <string>243 309 76 29</string>
+                <string>200 200 19 24</string>
             </attr>
         </node>
         <node id="n3">
             <attr name="layout">
-                <string>110 317 19 19</string>
+                <string>100 200 19 19</string>
             </attr>
         </node>
         <node id="n4">
             <attr name="layout">
-                <string>432 316 19 19</string>
+                <string>300 200 19 19</string>
             </attr>
         </node>
         <node id="n0">
             <attr name="layout">
-                <string>255 167 51 29</string>
+                <string>190 80 42 24</string>
             </attr>
         </node>
         <edge from="n1" to="n1">
@@ -39,12 +39,12 @@
                 <string>type:na</string>
             </attr>
         </edge>
-        <edge from="n3" to="n0">
+        <edge from="n3" to="n1">
             <attr name="label">
                 <string>x</string>
             </attr>
         </edge>
-        <edge from="n3" to="n1">
+        <edge from="n3" to="n0">
             <attr name="label">
                 <string>x</string>
             </attr>
@@ -54,14 +54,14 @@
                 <string>del:</string>
             </attr>
         </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>type:MOD</string>
-            </attr>
-        </edge>
         <edge from="n0" to="n4">
             <attr name="label">
                 <string>x</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>type:MOD</string>
             </attr>
         </edge>
     </graph>

@@ -1,1 +1,0 @@
-java -Xmx1024m  -XX:SoftRefLRUPolicyMSPerMB=10 -jar Generator.jar upm start1x3  -f results1x3\final# > results1x3\log.txt

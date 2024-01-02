@@ -6,37 +6,40 @@
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>216 191 51 29</string>
+                <string>188 191 42 24</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>418 191 51 29</string>
+                <string>303 193 42 24</string>
             </attr>
         </node>
         <node id="n6">
             <attr name="layout">
-                <string>79 143 41 116</string>
+                <string>83 153 33 96</string>
             </attr>
         </node>
         <node id="n8">
             <attr name="layout">
-                <string>763 163 34 87</string>
+                <string>535 168 27 72</string>
             </attr>
         </node>
         <node id="n2">
             <attr name="layout">
-                <string>589 192 51 29</string>
+                <string>422 192 42 24</string>
             </attr>
         </node>
+        <edge from="n0" to="n0">
+            <attr name="label">
+                <string>type:MOD</string>
+            </attr>
+        </edge>
         <edge from="n0" to="n1">
             <attr name="label">
                 <string>x</string>
             </attr>
-        </edge>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>type:MOD</string>
+            <attr name="layout">
+                <string>452 -13 235 205 298 205 11</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
@@ -48,10 +51,8 @@
             <attr name="label">
                 <string>x</string>
             </attr>
-        </edge>
-        <edge from="n6" to="n0">
-            <attr name="label">
-                <string>x</string>
+            <attr name="layout">
+                <string>500 -17 350 204 417 204 11</string>
             </attr>
         </edge>
         <edge from="n6" to="n6">
@@ -61,12 +62,12 @@
         </edge>
         <edge from="n6" to="n6">
             <attr name="label">
-                <string>flag:out2</string>
+                <string>flag:out1</string>
             </attr>
         </edge>
         <edge from="n6" to="n6">
             <attr name="label">
-                <string>flag:out1</string>
+                <string>flag:out2</string>
             </attr>
         </edge>
         <edge from="n6" to="n6">
@@ -74,9 +75,12 @@
                 <string>flag:wo</string>
             </attr>
         </edge>
-        <edge from="n8" to="n8">
+        <edge from="n6" to="n0">
             <attr name="label">
-                <string>flag:in1</string>
+                <string>x</string>
+            </attr>
+            <attr name="layout">
+                <string>496 -14 121 203 183 203 11</string>
             </attr>
         </edge>
         <edge from="n8" to="n8">
@@ -86,17 +90,25 @@
         </edge>
         <edge from="n8" to="n8">
             <attr name="label">
+                <string>flag:in1</string>
+            </attr>
+        </edge>
+        <edge from="n8" to="n8">
+            <attr name="label">
                 <string>flag:in2</string>
+            </attr>
+        </edge>
+        <edge from="n2" to="n2">
+            <attr name="label">
+                <string>type:MOD</string>
             </attr>
         </edge>
         <edge from="n2" to="n8">
             <attr name="label">
                 <string>x</string>
             </attr>
-        </edge>
-        <edge from="n2" to="n2">
-            <attr name="label">
-                <string>type:MOD</string>
+            <attr name="layout">
+                <string>450 -17 469 204 530 204 11</string>
             </attr>
         </edge>
     </graph>
