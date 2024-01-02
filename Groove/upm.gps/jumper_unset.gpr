@@ -1,32 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <gxl xmlns="http://www.gupro.de/GXL/gxl-1.0.dtd">
-    <graph role="rule" edgeids="false" edgemode="directed" id="no_jumper">
+    <graph role="rule" edgeids="false" edgemode="directed" id="jumper_unset">
         <attr name="$version">
             <string>curly</string>
         </attr>
         <node id="n0">
             <attr name="layout">
-                <string>295 231 41 58</string>
+                <string>299 240 33 48</string>
             </attr>
         </node>
         <node id="n1">
             <attr name="layout">
-                <string>471 249 28 29</string>
+                <string>472 240 25 48</string>
             </attr>
         </node>
-        <edge from="n0" to="n0">
-            <attr name="label">
-                <string>flag:out1</string>
-            </attr>
-        </edge>
         <edge from="n0" to="n0">
             <attr name="label">
                 <string>not:type:in</string>
             </attr>
         </edge>
-        <edge from="n0" to="n1">
+        <edge from="n0" to="n0">
             <attr name="label">
-                <string>x</string>
+                <string>flag:out1</string>
             </attr>
         </edge>
         <edge from="n0" to="n1">
@@ -34,7 +29,12 @@
                 <string>cnew:noJP</string>
             </attr>
             <attr name="layout">
-                <string>465 -30 315 260 400 209 485 263 13</string>
+                <string>500 0 315 260 400 208 484 263 13</string>
+            </attr>
+        </edge>
+        <edge from="n0" to="n1">
+            <attr name="label">
+                <string>x</string>
             </attr>
         </edge>
         <edge from="n1" to="n1">
